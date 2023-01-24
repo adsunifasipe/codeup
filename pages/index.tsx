@@ -40,38 +40,43 @@ export default function Home() {
     {
       title: 'WEB DEVELOPMENT',
       content:
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'Aprenda sobre linguagens para internet, desenvolvendo aplicações modernas indo do front-end ao back-end. No 1º semestre já se trabalha com linguagem HTML, CSS, e Javascript, que é utilizado também para desenvolvimento de aplicações servidoras.',
     },
     {
       title: 'ALGORITHMS',
       content:
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'O estudo de algoritmos é um fator decisivo para a formação de um bom desenvolvedor. A base da lógica de programação é vista desde o início passando por Algoritmos, Estrutura de dados matérias como WEB por exemplo que vemos na prática a aplicação desses algoritmos. A lógica de programação é vista em basicamente todas as disciplinas do curso. A disciplina de Linguagem de Programação, faz a aplicação da lógica não em uma única linguagem, mas sim nas principais linguagens do mercado, vemos Javascript, Java, Python entre outras.',
     },
     {
       title: 'PROGRAMMING LOGIC',
       content:
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'O desenvolvimento de aplicações responsivas e aplicativos para smartphones é o que disciplinas como Programação para Dispositivos móveis mostram para ao acadêmico. Trabalhando com linguagens modernas como React-Native, podemos desenvolver um aplicativo durante as aulas. Além de trabalhar com segurança e persistência de dados.',
     },
     {
       title: 'COMPUTER ARCHITECTURE',
       content:
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'Além da programação, um profissional qualificado deve entender da arquitetura, infraestrutura, e é isso que disciplinas como Arquitetura de Computadores, Hardware e Software mostram ao acadêmico.',
     },
     {
       title: 'DATA STRUCTURE',
       content:
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'A persistência e transferência de dados faz parte das disciplinas de Banco de Dados, Sistemas Operacionais, que fazem parte da prática do curso, desde a documentação de bancos, até os diversos tipos e modelos de gerenciadores de banco, como MySQL, PostgreeSQL, SQLite e também bancos não relacionais como Google Firebase e MongoDB.',
     },
     {
       title: 'NETWORKS',
       content:
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'A estrutura de redes é um tópico que gostamos no curso! Com a estrutura do laboratório de redes, o acadêmico entende, também de forma prática, como funcionam as redes de computadores, isso nas matérias de Redes I e II, e também na matéria de Redes Móveis, onde a parte física entra na jogada!',
     },
     {
       title: 'GRAPHIC COMPUTING',
       content:
-        'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
+        'A computação gráfica é uma das áreas que tendem a crescer no mercado de trabalho, visto a revolução que a 5G trará ao mercado e os ambientes virtuais que surgiram, o acadêmico também entende a importância desses recursos e como aplica-los ao mercado.',
     },
+    {
+      title: 'PROJECT MANAGEMENT',
+      content:
+        'A computação gráfica é uma das áreas que tendem a crescer no mercado de trabalho, visto a revolução que a 5G trará ao mercado e os ambientes virtuais que surgiram, o acadêmico também entende a importância desses recursos e como aplica-los ao mercado.',
+    }
   ]
 
   return (
