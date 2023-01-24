@@ -75,7 +75,7 @@ export default function Home() {
     {
       title: 'PROJECT MANAGEMENT',
       content:
-        'A computação gráfica é uma das áreas que tendem a crescer no mercado de trabalho, visto a revolução que a 5G trará ao mercado e os ambientes virtuais que surgiram, o acadêmico também entende a importância desses recursos e como aplica-los ao mercado.',
+        'A parte de gestão de projetos em TI é fundamental para o funcionamento de qualquer empresa ou software. A disciplina de Engenharia de Software trás ao acadêmico uma visão geral da estrutura de um sistema. A Disciplina de prototipação de Hardware e Software também mostra uma forma de testar um software antes mesmo de desenvolve-lo.',
     }
   ]
 
