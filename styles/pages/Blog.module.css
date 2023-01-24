@@ -1,0 +1,59 @@
+.main {
+  min-height: 100vh;
+  background-color: var(--background-default);
+  padding-top: 150px;
+}
+
+.main .container {  
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .container h3 {
+  width: 100%;
+  font-family: IBM_SANS_BOLD;
+  font-size: 3.5rem;
+  
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  margin-bottom: 4rem;
+  cursor: pointer;
+}
+
+.main .container h1 img {
+  position: absolute;
+  left: 0;
+}
+
+.main .container table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  font-family: IBM_SANS_BOLD;
+  font-size: 0.75rem;
+  color: var(--text-color);
+}
+
+.main .container table,
+.main .container td {
+  border: 1px solid var(--contrast-color);
+  padding: 1.5rem 0.5rem;
+  vertical-align: middle;
+  text-align: center;
+  max-width: 400px;
+}
+
+.main .container table .table__header td {
+  padding: 8px;
+  white-space: nowrap;
+}

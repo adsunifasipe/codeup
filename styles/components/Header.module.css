@@ -1,0 +1,26 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4rem;
+  padding: 1.25rem 0;
+  background: transparent;
+}
+
+.header a {
+  font-family: IBM_SANS_REGULAR;
+  font-family: 1.5rem;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: 200ms ease-in all;
+  cursor: pointer;
+}
+
+.header a:hover {
+  background-color: var(--background-hover-default);
+}

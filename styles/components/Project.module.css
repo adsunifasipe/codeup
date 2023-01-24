@@ -1,0 +1,53 @@
+.box {
+  width: 252px;
+  height: 252px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: 300ms ease-in-out all;
+
+  background-position: center;
+  background-size: cover;
+}
+.box h1 {
+  font-family: IBM_SANS_BOLD;
+  color: var(--text-color);
+  font-size: 1.375rem;
+  text-transform: uppercase;
+
+  animation: forwards;
+  display: none;
+}
+
+.box h2 {
+  font-family: IBM_SANS_LIGHT;
+  color: var(--text-color);
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.box .image {
+  cursor: pointer;
+  display: none;
+}
+
+.box:hover {
+  border: 1px solid var(--contrast-color);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.box:hover h1 {
+  display: block;
+}
+
+.box:hover h2 {
+  margin-bottom: 2.125rem;
+}
+
+.box:hover .image {
+  display: block;
+}

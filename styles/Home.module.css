@@ -1,0 +1,404 @@
+.container {
+  max-width: 1080px;
+}
+
+.default__button {
+  background: none;
+  max-width: 192px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--contrast-color);
+  padding: 0.75rem 2.5rem;
+  transition: 200ms ease-in all;
+  cursor: pointer;
+}
+
+.default__button:hover {
+  background-color: var(--contrast-color);
+}
+
+.default__button:hover span {
+  color: var(--background-default);
+}
+
+.default__button span {
+  font-family: IBM_SANS_BOLD;
+  font-size: 1rem;
+  color: var(--contrast-color);
+}
+
+.main .introduction {
+  min-height: 100vh;
+  background-image: url('../assets/images/introduction-bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .introduction .title {
+  color: var(--text-color);
+  font-size: 4rem;
+  font-family: IBM_SANS_BOLD;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.main .introduction .apresentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.5rem;
+  position: relative;
+}
+
+.main .introduction .apresentation p {
+  font-family: IBM_MONO_REGULAR;
+  color: var(--text-color);
+  font-size: 1.75rem;
+  max-width: 39rem;
+}
+
+.main .introduction .apresentation p span {
+  font-family: IBM_MONO_BOLD;
+  color: var(--contrast-color);
+  font-style: italic;
+}
+
+.main .introduction .apresentation button {
+  background: none;
+  border: 1px solid var(--contrast-color);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.25s ease-in all;
+}
+
+.main .introduction .apresentation button span {
+  font-family: IBM_MONO_REGULAR;
+  color: var(--contrast-color);
+  font-size: 1.875rem;
+}
+
+.main .introduction .apresentation button:hover {
+  background-color: var(--contrast-color);
+}
+
+.main .introduction .apresentation button:hover span {
+  color: var(--background-default);
+}
+
+.main .introduction .arrow__down {
+  cursor: pointer;
+  position: absolute;
+  bottom: 4rem;
+}
+
+/* ------------------------------------------------------ */
+
+.main .information {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .information .container {
+  display: flex;
+  column-gap: 5rem;
+}
+
+.main .information .about__course {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .information .about__course .section__header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.main .information .about__course .section__header h5 {
+  font-family: IBM_MONO_REGULAR;
+  font-size: 1.5rem;
+  color: var(--contrast-color);
+}
+
+.main .information .about__course .section__header h1 {
+  font-family: IBM_SANS_BOLD;
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.main .information .about__course .text {
+  display: flex;
+  flex-direction: column;
+  max-width: 30rem;
+}
+
+.main .information .about__course .text p {
+  font-family: IBM_SANS_REGULAR;
+  font-size: 1rem;
+  color: var(--text-color);
+  text-align: justify;
+  line-height: 21px;
+}
+
+.main .information .section__caller {
+  max-width: 30rem;
+  background-color: var(--light-background-default);
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.main .information .section__caller h1 {
+  font-family: IBM_SANS_BOLD;
+  font-size: 1.5rem;
+  line-height: 31px;
+  color: var(--contrast-color);
+}
+
+.main .information .section__caller p {
+  font-family: IBM_SANS_REGULAR;
+  font-size: 1rem;
+  color: var(--text-color);
+  text-align: justify;
+  line-height: 21px;
+}
+
+/* ------------------------------------------------------ */
+
+.main .study {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .study .container {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5rem;
+}
+
+.main .study .container .section__header {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  margin-bottom: 4rem;
+}
+
+.main .study .container .section__header .indicator h5 {
+  font-family: IBM_MONO_REGULAR;
+  font-size: 1.5rem;
+  color: var(--contrast-color);
+}
+
+.main .study .container .section__header .indicator h1 {
+  font-family: IBM_SANS_BOLD;
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.main .study .container .section__header .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 1rem;
+  padding-top: 40px;
+}
+
+.main .study .container .section__header .info p {
+  font-family: IBM_SANS_REGULAR;
+  font-size: 1rem;
+  color: var(--text-color);
+  text-align: start;
+  margin: 0;
+}
+
+.main .study .container .section__header .info b {
+  font-family: IBM_SANS_BOLD;
+  font-size: 1rem;
+  color: var(--contrast-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main .study .container .course__content {
+  border: 1px solid var(--contrast-color);
+  padding: 3.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 4rem;
+  row-gap: 3rem;
+}
+
+.main .study .container .course__content .topic {
+  padding: 1rem;
+  width: 180px;
+  cursor: pointer;
+  transition: 200ms ease-in all;
+  display: flex;
+  justify-content: center;
+  line-break: auto;
+  height: 100%;
+}
+
+.main .study .container .course__content .topic h2 {
+  font-family: IBM_SANS_LIGHT;
+  color: var(--text-color);
+  font-size: 1.25rem;
+  line-height: 31px;
+  font-weight: 300;
+}
+
+.main .study .container .course__content .topic:hover {
+  background-color: var(--contrast-color);
+}
+
+.main .study .container .course__content .topic:hover h2 {
+  font-family: IBM_SANS_BOLD;
+  color: var(--background-default);
+}
+
+/* ------------------------------------------------------ */
+
+.main .hands__on {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .hands__on .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 5rem;
+}
+
+.main .hands__on .container .section__header {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  margin-bottom: 6rem;
+}
+
+.main .hands__on .container .section__header .indicator h5 {
+  font-family: IBM_MONO_REGULAR;
+  font-size: 1.5rem;
+  color: var(--contrast-color);
+}
+
+.main .hands__on .container .section__header .indicator h1 {
+  font-family: IBM_SANS_BOLD;
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.main .hands__on .container .section__header .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 1rem;
+}
+
+.main .hands__on .container .section__header .info p {
+  font-family: IBM_SANS_REGULAR;
+  font-size: 1rem;
+  color: var(--text-color);
+  text-align: start;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.main .hands__on .container .section__header .info b {
+  font-family: IBM_SANS_BOLD;
+  font-size: 1rem;
+  color: var(--contrast-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main .hands__on .container .projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.5rem;
+  margin-bottom: 6rem;
+}
+
+/* ------------------------------------------------------ */
+
+.main .blog {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+}
+
+.main .blog .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 5rem;
+}
+
+.main .blog .container .section__header {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  margin-bottom: 6rem;
+}
+
+.main .blog .container .section__header .indicator h5 {
+  font-family: IBM_MONO_REGULAR;
+  font-size: 1.5rem;
+  color: var(--contrast-color);
+}
+
+.main .blog .container .section__header .indicator h1 {
+  font-family: IBM_SANS_BOLD;
+  font-size: 3rem;
+  color: var(--text-color);
+}
+
+.main .blog .container .section__header .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 1rem;
+}
+
+.main .blog .container .section__header .info p {
+  font-family: IBM_SANS_REGULAR;
+  font-size: 1rem;
+  color: var(--text-color);
+  text-align: start;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.main .blog .container .section__header .info b {
+  font-family: IBM_SANS_BOLD;
+  font-size: 1rem;
+  color: var(--contrast-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main .blog .container .posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.5rem;
+  margin-bottom: 3rem;
+}
