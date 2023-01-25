@@ -42,6 +42,7 @@
   font-family: IBM_SANS_BOLD;
   margin-bottom: 5rem;
   text-align: center;
+  padding: 0 2rem;
 }
 
 .main .introduction .apresentation {
@@ -50,6 +51,7 @@
   align-items: center;
   padding: 0 2.5rem;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .main .introduction .apresentation p {
@@ -401,4 +403,48 @@
   align-items: center;
   column-gap: 2.5rem;
   margin-bottom: 3rem;
+}
+
+@media (max-width: 1080px) {
+  .main .introduction .title {
+    font-size: 3rem;
+    padding: 0 4rem;
+  }
+
+  .main .introduction .apresentation {
+    justify-content: center;
+    margin-bottom: 4rem;
+    row-gap: 4rem;
+  }
+
+  .main .introduction .apresentation p {
+    text-align: center;
+  }
+
+  .main .information .container {
+    flex-wrap: wrap;
+    padding: 4rem 0;
+    justify-content: center;
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .main .introduction .title {
+    margin-bottom: 2rem;
+  }
+
+  .main .introduction .apresentation {
+    justify-content: center;
+    row-gap: 2rem;
+  }
+
+  .main .introduction .apresentation p {
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .main .information .about__course {
+    padding: 0 2rem;
+  }
 }
