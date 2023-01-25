@@ -217,7 +217,7 @@ export default function Home() {
               <div className={styles.info}>
                 <p>
                   Nosso curso não exige um TCC para você se formar, porém, todo semestre, exceto no primeiro, você terá
-                  que entregar um projeto interdisciplinar, serão 4 projetos ao longo de 4 semestres aonde você mostrará
+                  que entregar um projeto interdisciplinar, serão 4 projetos ao longo dos 5 semestres aonde você mostrará
                   na prática o que aprendeu, conheça alguns projetos dos nossos alunos.
                 </p>
               </div>
