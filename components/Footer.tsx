@@ -23,15 +23,15 @@ export default function Footer() {
             <a href="https://www.instagram.com/adsunifasipe/" target="_blank" rel="noreferrer">
               Instagram
             </a>
-            <a href="">Facebook</a>
-            <a href="">YouTube</a>
+            <a href="https://www.facebook.com/ADSUNIFASIPE">Facebook</a>
+            <a href="https://www.youtube.com/@adsunifasipe7993">YouTube</a>
           </div>
         </div>
 
         <div className={styles.additional}>
           <img src="/assets/images/fasipe.png" alt="Fasipe Logo" />
 
-          <span onClick={() => window.open('https://github.com/luan-hubner/ads-interdisciplinar')}>
+          <span onClick={() => window.open('https://github.com/adsunifasipe/codeup')}>
             código fonte <img src="/assets/images/mini-github.png" alt="GitHub Logo" />
           </span>
         </div>
