@@ -182,6 +182,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .main .study .container {
@@ -291,6 +292,7 @@
   display: grid;
   grid-template-columns: 2fr 1.5fr;
   margin-bottom: 6rem;
+  padding: 0 2rem;
 }
 
 .main .hands__on .container .section__header .indicator h5 {
@@ -352,6 +354,7 @@
   flex-direction: column;
   align-items: center;
   column-gap: 5rem;
+  padding: 0 2rem;
 }
 
 .main .blog .container .section__header {
@@ -427,6 +430,29 @@
     justify-content: center;
     row-gap: 2rem;
   }
+
+  .main .study .container .course__content {
+    justify-content: space-evenly;
+  }
+
+  .main .study .container .course__content .topic h2 {
+    text-align: center;
+  }
+
+  .main .hands__on {
+    padding-top: 4rem;
+  }
+
+  .main .hands__on .container .section__header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main .hands__on .container .projects {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -446,5 +472,17 @@
 
   .main .information .about__course {
     padding: 0 2rem;
+  }
+
+  .main .blog .container .section__header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 512px) {
+  .main .study .container .section__header {
+    display: flex;
+    flex-wrap: wrap;
   }
 }

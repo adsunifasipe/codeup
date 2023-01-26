@@ -41,3 +41,27 @@
 .box:hover {
   background-color: rgba(186, 186, 186, 0.1);
 }
+
+@media (max-width: 1080px) {
+  .box .image {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .box .image {
+    width: 16rem;
+  }
+}
+
+@media (max-width: 624px) {
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+
+  .box .image {
+    width: 100%;
+  }
+}

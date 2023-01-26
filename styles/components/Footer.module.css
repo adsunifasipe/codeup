@@ -2,6 +2,7 @@
   height: 300px;
   width: 100%;
   background-color: var(--background-dark);
+  padding: 0 2rem;
 }
 
 .footer .container {
@@ -61,4 +62,14 @@
 
 .footer .container .additional span:hover {
   background-color: var(--background-hover-default);
+}
+
+@media (max-width: 768px) {
+  .footer .container .additional img {
+    display: none;
+  }
+
+  .footer .container .additional span {
+    display: none;
+  }
 }
