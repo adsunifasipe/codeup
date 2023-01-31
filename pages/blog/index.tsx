@@ -13,7 +13,7 @@ interface Item {
   image: string
 }
 
-export default function Matriz() {
+export default function Matriz() {   
 
   return (
     <div className={styles.main}>

@@ -253,7 +253,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
+     
             <div className={styles.posts}>
               {
                 blogJson.map((item) => 

@@ -5,7 +5,7 @@ import Header from '../../components/Header'
 import styles from '../../styles/pages/Matriz.module.css'
 
 export default function Matriz() {
-  return (
+  return (      
     <div className={styles.main}>
       <Header />
 
