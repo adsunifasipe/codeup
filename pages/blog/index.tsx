@@ -4,7 +4,18 @@ import Post from '../../components/Post'
 
 import styles from '../../styles/pages/Blog.module.css'
 
+import blogJson from '../../assets/blog.json';
+
+interface Item {  
+  id : number
+  title : string
+  summary : string
+  image: string
+}
+
 export default function Matriz() {
+  console.log(blogJson);
+
   return (
     <div className={styles.main}>
       <Header />
@@ -15,48 +26,16 @@ export default function Matriz() {
         </h3>
 
         <div className={styles.posts}>
-            <Post
-            id={1}
-            title="Lorem Ipsum is not simply random text"
-            summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
-            imageUrl="tech.png"
-            />
-            <Post
-            id={1}
-            title="Lorem Ipsum is not simply random text"
-            summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
-            imageUrl="farm.png"
-            />
-            <Post
-            id={1}
-            title="Lorem Ipsum is not simply random text"
-            summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
-            imageUrl="industry.png"
-            />
-            <Post
-            id={1}
-            title="Lorem Ipsum is not simply random text"
-            summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
-            imageUrl="industry.png"
-            />
-                        <Post
-            id={1}
-            title="Lorem Ipsum is not simply random text"
-            summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
-            imageUrl="industry.png"
-            />
-                        <Post
-            id={1}
-            title="Lorem Ipsum is not simply random text"
-            summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
-            imageUrl="industry.png"
-            />
-                        <Post
-            id={1}
-            title="Lorem Ipsum is not simply random text"
-            summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
-            imageUrl="industry.png"
-            />            
+            {
+              blogJson.map(item => (
+                <Post
+                  id={item.id}
+                  title={item.title}
+                  summary={item.summary}
+                  imageUrl={item.image}
+                />  
+              ))
+            }                
         </div>        
         
       </div>

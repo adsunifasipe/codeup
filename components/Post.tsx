@@ -9,7 +9,7 @@ interface PostProps {
 
 export default function Post({ id, title, summary, imageUrl }: PostProps) {
   return (
-    <div className={styles.box}>
+    <div onClick={() => window.location.href="blogDetail?id="+id} className={styles.box}>
       <div
         className={styles.image}
         style={{

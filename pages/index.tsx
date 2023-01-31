@@ -12,6 +12,8 @@ import { Link } from 'react-scroll'
 import ModalTopic from '../components/ModalTopic'
 import Image from 'next/image'
 
+import blogJson from './../assets/blog-home.json';
+
 //&rarr;
 //<Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
 
@@ -224,9 +226,9 @@ export default function Home() {
             </div>
 
             <div className={styles.projects}>
-              <Project student="Luan Hubner" project="Website" repository="www.google.com" imageUrl="minicode.png" />
-              <Project student="Luan Hubner" project="Website" repository="www.google.com" imageUrl="minicode.png" />
-              <Project student="Luan Hubner" project="Website" repository="www.google.com" imageUrl="minicode.png" />
+              <Project student="Luan Hubner" project="Aplicativo MilhoFest" repository="https://github.com/luan-hubner/festa-milho" imageUrl="minicode.png" />
+              <Project student="Katiana e Iago" project="Landing Turismo" repository="https://katianahanisch.github.io/Projeto_Interdisciplinar/" imageUrl="minicode.png" />
+              <Project student="Rafael e Rafael" project="Fasishop" repository="https://github.com/rafasantos12/fasishop" imageUrl="minicode.png" />
             </div>
 
             <button className={styles.default__button}>
@@ -253,7 +255,17 @@ export default function Home() {
             </div>
 
             <div className={styles.posts}>
-              <Post
+              {
+                blogJson.map((item) => 
+                  <Post
+                  id={item.id}
+                  title={item.title}
+                  summary={item.summary}
+                  imageUrl={item.image}
+                />                
+                )
+              }
+              {/* <Post
                 id={1}
                 title="Lorem Ipsum is not simply random text"
                 summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
@@ -270,7 +282,7 @@ export default function Home() {
                 title="Lorem Ipsum is not simply random text"
                 summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
                 imageUrl="industry.png"
-              />
+              /> */}
             </div>
 
             <button onClick={() => window.location.href="blog"} className={styles.default__button}>
