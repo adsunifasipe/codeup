@@ -6,6 +6,7 @@ import styles from '../../styles/pages/BlogDetail.module.css'
 import blogJson from '../../assets/blog.json';
 import ReactHtmlParser from 'html-react-parser'; 
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 export default function Matriz() {
 
@@ -35,7 +36,7 @@ export default function Matriz() {
                 </div> 
 
                 {post?.images.map(image => (
-                    <img src={`../../assets/posts/${image}`}></img>
+                    <Image key={1} src={`../../assets/posts/${image}`} alt='Imagem blog'/>                    
                 ))}       
                 
             </div>

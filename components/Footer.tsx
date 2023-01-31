@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Link } from 'react-scroll'
 
 import styles from '../styles/components/Footer.module.css'
@@ -29,10 +30,10 @@ export default function Footer() {
         </div>
 
         <div className={styles.additional}>
-          <img src="/assets/images/fasipe.png" alt="Fasipe Logo" />
+          <Image src="/assets/images/fasipe.png" alt="Fasipe Logo"/>
 
           <span onClick={() => window.open('https://github.com/adsunifasipe/codeup')}>
-            código fonte <img src="/assets/images/mini-github.png" alt="GitHub Logo" />
+            código fonte <Image src="/assets/images/mini-github.png" alt="GitHub Logo" />
           </span>
         </div>
       </div>

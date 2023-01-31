@@ -257,32 +257,14 @@ export default function Home() {
             <div className={styles.posts}>
               {
                 blogJson.map((item) => 
-                  <Post
+                  <Post key={item.id}
                   id={item.id}
                   title={item.title}
                   summary={item.summary}
                   imageUrl={item.image}
                 />                
                 )
-              }
-              {/* <Post
-                id={1}
-                title="Lorem Ipsum is not simply random text"
-                summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
-                imageUrl="tech.png"
-              />
-              <Post
-                id={1}
-                title="Lorem Ipsum is not simply random text"
-                summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
-                imageUrl="farm.png"
-              />
-              <Post
-                id={1}
-                title="Lorem Ipsum is not simply random text"
-                summary="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested."
-                imageUrl="industry.png"
-              /> */}
+              }        
             </div>
 
             <button onClick={() => window.location.href="blog"} className={styles.default__button}>

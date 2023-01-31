@@ -14,7 +14,6 @@ interface Item {
 }
 
 export default function Matriz() {
-  console.log(blogJson);
 
   return (
     <div className={styles.main}>
@@ -28,7 +27,7 @@ export default function Matriz() {
         <div className={styles.posts}>
             {
               blogJson.map(item => (
-                <Post
+                <Post key={item.id}
                   id={item.id}
                   title={item.title}
                   summary={item.summary}

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 
@@ -10,7 +11,7 @@ export default function Matriz() {
 
       <div className={styles.container}>
         <h1>
-          <img src="/assets/images/arrow-back.png" alt="Voltar" onClick={() => (window.location.href = '/')} />
+          <Image src="/assets/images/arrow-back.png" alt="Voltar" onClick={() => (window.location.href = '/')} />
           MATRIZ CURRICULAR
         </h1>
 
