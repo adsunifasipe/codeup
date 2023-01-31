@@ -4,7 +4,7 @@ import Header from '../../components/Header'
 import styles from '../../styles/pages/BlogDetail.module.css'
 
 import blogJson from '../../assets/blog.json';
-import ReactHtmlParser from 'react-html-parser'; 
+import ReactHtmlParser from 'html-react-parser'; 
 import { useRouter } from 'next/router';
 
 export default function Matriz() {
