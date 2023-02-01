@@ -30,10 +30,10 @@ export default function Footer() {
         </div>     
 
         <div className={styles.additional}>
-          <Image src="/assets/images/fasipe.png" alt="Fasipe Logo"/>
+          <Image width={250} height={75} src="/assets/images/fasipe.png" alt="Fasipe Logo"/>
 
           <span onClick={() => window.open('https://github.com/adsunifasipe/codeup')}>
-            código fonte <Image src="/assets/images/mini-github.png" alt="GitHub Logo" />
+            código fonte <Image width={30} height={30} src="/assets/images/mini-github.png" alt="GitHub Logo" />
           </span>
         </div>
       </div>

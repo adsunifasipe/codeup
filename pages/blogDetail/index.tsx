@@ -36,7 +36,7 @@ export default function Matriz() {
                 </div> 
 
                 {post?.images.map(image => (
-                    <Image key={1} src={`../../assets/posts/${image}`} alt='Imagem blog'/>                    
+                    <Image width={400} height={150}  key={1} src={`/assets/posts/${image}`} alt='Imagem blog'/>                    
                 ))}       
                 
             </div>
